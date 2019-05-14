@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamarinBlob"
+             x:Class="XamarinBlob.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Image Source="banner1.png" HeightRequest="100"/>
+        <Image WidthRequest="200" HeightRequest="150" x:Name="imgChoosed"></Image>
+        <Button x:Name="btnPick" Text="Pick" Clicked="BtnPick_Clicked"></Button>
+        <Button x:Name="btnStore" Text="Upload" Clicked="BtnStore_Clicked"></Button>
+        <Button x:Name="btnGet" Text="Download" Clicked='BtnGet_Clicked'></Button>
+        <Button x:Name="btnDelete" Text="Delete" Clicked="BtnDelete_Clicked"></Button>
+    </StackLayout>
+
+</ContentPage>
